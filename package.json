@@ -10,8 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.5.12",
     "@astrojs/check": "^0.5.10",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.5.12",
+    "astro-icon": "^1.1.0",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.1.179",
+    "@tailwindcss/typography": "^0.5.12"
   }
 }

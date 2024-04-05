@@ -1,0 +1,15 @@
+---
+import Mainlayout from "./Mainlayout.astro"
+import TagsSelector from "@/components/TagsSelector.astro"
+---
+
+<Mainlayout title="Blog">
+	<div class="max-w-content-size mx-auto w-full">
+		<TagsSelector />
+		<section class="mt-6 w-full">
+			<ul class="space-y-8">
+				<slot />
+			</ul>
+		</section>
+	</div>
+</Mainlayout>
